@@ -5,14 +5,17 @@ export const ContainerStyled = styled.main`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  align-self: center;
   gap: 20px;
 
   width: 100%;
   max-width: 369px;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 
   padding: 12px;
   margin: 0 auto;
+  vertical-align: middle;
 
   & > div {
     display: flex;

@@ -14,7 +14,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import { IDataLogin, UserContext } from '../../contexts/UserContext';
 import { schemaLogin } from '../../validations/registerUser';
 
-
 const Login = () => {
   const { loginUser } = useContext(UserContext);
 

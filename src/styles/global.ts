@@ -9,7 +9,11 @@ export const GlobalStyle = createGlobalStyle`
 
         font-family: 'Inter', sans-serif;
         font-size: 16px;
-        
+      
+    }
+
+    html{
+        height: 100%;
     }
 
     button{
